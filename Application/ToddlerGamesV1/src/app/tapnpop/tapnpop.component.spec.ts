@@ -1,20 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TapnpopComponent } from './tapnpop.component';
 
-import { Game2Component } from './game2.component';
-
-describe('Game2Component', () => {
-  let component: Game2Component;
-  let fixture: ComponentFixture<Game2Component>;
+describe('TapnpopComponent', () => {
+  let component: TapnpopComponent;
+  let fixture: ComponentFixture<TapnpopComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Game2Component ]
+      declarations: [ TapnpopComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Game2Component);
+    fixture = TestBed.createComponent(TapnpopComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
